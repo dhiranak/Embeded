@@ -1,5 +1,9 @@
 # Embeded
 
+### Embedded development
+
+Embedded can be a place to obtain a saturation of knowledge of computer systems. Similar to desktop or mobile development it is possible for a developer to muddle along with remidial coding techniques and devices will work... mostly. Since most devices are lightweight a single developer can work on all aspects of code including operating systems all the way down to the "metal". Without a big picture understanding of things debugging is difficult to impossible since every system interacts with several others. A developer will either take the vertical learning curve as a challenge and step up and become the next level developer or they will only ever see whole systems as one of the black arts reserved for the anonymous master programmer in some abstract other place. 
+
 ### Intermediate techniques for static memory algorithms
 
 The only place I ever saw algorithms used in embedded code was the first place I worked. The person that wrote that code now works for G@@gle. Most embedded code I have had to refactor appears to be written on the level of a intermediate hobbyiest. This includes code in Wind@ws. This is strange since many embedded systems are witten on small microcontrollers with limited resources where a algorithm would help most. **However the difficuty with using an algorithm is if the code is to be maintained by a low experience developer they will have difficutly reading and understanding the code.** Quora indicates that most developers use online searching to find solutions. This is where I am storing my own toolbox of algorithms written specifically for embedded systems eg Arduino, Rasberry Pi, mbed, Maker in exchange for being able to use the storage.
