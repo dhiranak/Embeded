@@ -15,3 +15,5 @@ Algorithms are pure computer science methods to do things very efficiently that 
 [Moving average](https://github.com/dhiranak/Embeded/tree/master/moving%20average) is a demonstration of a optimized moving average (boxcar) filter.
 
 [Static circular queue](https://github.com/dhiranak/Embeded/tree/master/Static_Queue) is a circular queue in its most basic form to store integers or indicies for an array of pointers to data structures to manage the pool of elements.
+
+[Static Linked List](https://github.com/dhiranak/Embeded/tree/master/Linked%20List) uses a queue to manage a array of list nodes. Included in the functions is a function to test for a cycle. This shows the basics of algorithms using static memory. 
