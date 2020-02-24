@@ -1,0 +1,7 @@
+# Linked list
+
+### Static memory linked list
+
+I have tried to describe this to a few people that at first agreed with me on how to implement. After a while several came back and informed me that they decided to use other techniques to store their temporary data. I am guessing that the queue wasn't as easy to implement as it seams. I use a linked list for shorter re-usable nodes to store things like tcp connection socket info where doing a search to find the node isn't too difficult. There may not be a huge number of sockets used but the number of items can be used to set the number of available connections, timeout etc. The nodes are an array of data structures, the allocation is just an index into the array and starts out sorted then as sockets are "freed" (pushed onto) the array index queue the order becomes random. The actual memory for the nodes are the array of data structures which never get deleted until the application stops. This is a variation of the scheme used in K&R for unix memory management.
+
+Standard dynamic memory allocation of a linked list can fragment memory. I wrote a scrolling data graph using a dynamically allocated linked list to push and pop the items to the visible part of the graph. After a couple of hours the system slowed to a crawl. Stopping the application then restarting it cleared the fragmented memory and the performance returned. The code was returned to using a circular queue to store the cached data and the degraded performance never returned.
